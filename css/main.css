@@ -1,0 +1,184 @@
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+
+ body {
+     background-image: url(../img/ceu\ a\ noite3.jpg);
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: center;
+     background-attachment: fixed;
+
+     min-height: 100vh;
+     display: flex;
+     flex-direction: column;
+ }
+
+ h2 {
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     color: rgb(113, 7, 242);
+     margin-bottom: 20px;
+     font-size: 35px;
+
+ }
+
+ h3 {
+     color: rgb(58, 201, 211);
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     margin-bottom: 15px;
+     font-size: 25px;
+ }
+
+ p {
+     color: white;
+     text-shadow: 0px 0px 12px #0a051d;
+     ;
+     width: 500px;
+     margin-left: auto;
+     margin-right: auto;
+     margin-bottom: 20px;
+     font-size: 20px;
+     text-indent: 25px;
+     background-color: rgba(10, 5, 29, 0.4);
+     backdrop-filter: blur(8px);
+     -webkit-backdrop-filter: blur(8px);
+
+     padding: 5px 15px;
+     border-radius: 12px;
+     max-width: 600px;
+ }
+
+ h1 {
+     font-family: Georgia, 'Times New Roman', Times, serif;
+     color: rgb(203, 6, 237);
+     text-align: center;
+     margin-bottom: 35px;
+     font-size: 50px;
+ }
+
+ li {
+     color: white;
+     margin-bottom: 25px;
+
+
+ }
+
+ header {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     background-color: rgb(0, 0, 0);
+     width: 100%;
+     display: flex;
+     height: 40px;
+ }
+
+ header nav a {
+     font-size: 35px;
+     color: white;
+     text-decoration: none;
+ }
+
+ header nav {
+     display: flex;
+     gap: 25px;
+
+     flex: 1;
+ }
+
+ header p {
+     color: white;
+     font-size: 25px;
+     margin-right: 25px;
+ }
+
+header .header_eu {
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+}
+
+ footer {
+     background-color: rgb(0, 0, 0);
+     width: 100%;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     margin-top: auto;
+     height: 51px;
+ }
+
+ main ul li img {
+     width: auto;
+     height: 50px;
+ }
+
+ .link_contatos a {
+     font-size: 35px;
+     display: flex;
+     gap: 30px;
+ }
+
+ .tecnologias {
+     margin-left: 100px;
+ }
+
+ .tecnologias ul {
+     list-style-type: none;
+ }
+
+ .linguagens ul {
+     display: grid;
+     grid-template-columns: repeat(3, 250px);
+     grid-template-rows: repeat();
+ }
+
+ .linguagens ul li {
+     display: flex;
+     background-color: rgba(0, 0, 0, 0.5);
+     width: 180px;
+     height: 75px;
+     gap: 50px;
+     padding-top: 15px;
+     padding-left: 5px;
+     border-radius: 25px;
+ }
+
+ .apresentacao ul {
+     display: grid;
+     grid-template-columns: repeat(3, 250px);
+     grid-template-rows: repeat();
+ }
+
+ .apresentacao ul li {
+     display: flex;
+     background-color: rgba(0, 0, 0, 0.5);
+     width: 180px;
+     height: 75px;
+     gap: 50px;
+     padding-top: 15px;
+     padding-left: 5px;
+     border-radius: 25px;
+ }
+
+.link_contatos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+  .link_contatos a {
+     color: rgb(203, 111, 239);
+     background-color: white;
+     padding: 10px 20px;
+     text-decoration: none;
+     border-radius: 5px;
+     display: inline-block;
+     margin: 5px;
+ }
+
+ .link_contatos a:hover{
+    background-color: rgb(207, 202, 202);    
+ }
